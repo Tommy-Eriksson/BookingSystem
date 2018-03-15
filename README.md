@@ -35,13 +35,23 @@
 <li>privatestringid;</li></ul>
 <p>Samt ytterligare en variabler för datum, det kant.ex vara en sträng, eller färdiga typer som Date;</p>
 https://docs.oracle.com/javase/8/docs/api/java/util/Date.html<p>En ticket kan skapas t.ex. såhär:</p> 
-<pre>Ticketticket = newTicket(p,102);</pre>
+<pre>
+Ticketticket = newTicket(p,102);
+</pre>
 <p>Och dess konstruktor kan delvis se ut såhär:</p>
-<pre>publicTicket(Person p, introomNr){
-  this.person = p;this.roomNr = roomNr; // din kod, generera unikt ID
-  }</pre>
+<pre>
+publicTicket(Person p, introomNr){
+  this.person = p;
+  this.roomNr = roomNr; 
+  // din kod, generera unikt ID
+  }
+</pre>
 <p>I Tickets konstruktorskall ett unikt ID skapas som baseras på namn och ett slumpat nummer.Det skall också finnas en funktion som returnerar det unika ID</p>
-<code>public string getUniqueId(){ returnid; }</code>
+<pre>
+public string getUniqueId(){ 
+  returnid; 
+  }
+</pre>
 <h4>Hotel</h4>
 <p>Klassen hotell kan lägga till och ta bort personer, skriva ut personer till konsolen, skriva ut lediga rum osv.</p> 
 <p>Hotell måsteockså på något sätt vid en bokning kunna dela ut ett ledigt rumsnummer, detta kan förslagsvisgöras genom två arrayer, en vacantRoom array och en occupiedRoom array.</p> 
