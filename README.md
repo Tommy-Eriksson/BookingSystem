@@ -1,9 +1,10 @@
 <H1>YH utbildning systemintegratör</h1>
 <a href="https://www.lernia.se/utbildning/yrkeshogskoleutbildning/systemintegrator/">Lernia systemintegratör</a>
 
-<h2>Första uppgiften i den inledande kursen Java. </h2>
+<h5>Första uppgiften i den inledande kursen Java. </h5>
 
-
+<br />
+<br />
 <h3>Hotellbokningssytem</h3>
 <p>Ett hotell behöver ett mindre bokningssystem som kan checka in och ut gäster. Systemet skahålla reda på alla incheckadegäster, deras rumsnummeroch incheckningsdatum.</p> 
 <p>Ett användargränssnitt måste först skapas som representeras av klassen UI som också innehållermain().</p> 
